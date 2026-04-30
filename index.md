@@ -2,7 +2,7 @@
 layout: default
 title: Dev Singh - Game Design Portfolio
 ---
-
+<div class="page-wrapper">
 <style>
 /* ===== PAGE CONTAINER (this is the BIG fix) ===== */
 .page-wrapper {
@@ -185,3 +185,4 @@ Itch.io: https://devidog34.itch.io/
 ## ⚡ Notes
 
 This portfolio is actively being updated with new projects and systems.
+</div>
