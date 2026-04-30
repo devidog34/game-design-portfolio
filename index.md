@@ -2,59 +2,93 @@
 layout: default
 title: Dev Singh - Game Design Portfolio
 ---
-<div class="page-wrapper">
+
 <style>
-/* ===== PAGE CONTAINER (this is the BIG fix) ===== */
-.page-wrapper {
-  max-width: 1100px;
+/* =========================
+   AAA STYLE SYSTEM
+========================= */
+
+body {
+  background: #0b0f17;
+  color: #eaeaea;
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif;
+}
+
+/* CONTAINER */
+.container {
+  max-width: 1040px;
   margin: 0 auto;
   padding: 0 24px;
 }
 
-/* ===== HERO ===== */
+/* HERO */
 .hero {
+  padding: 110px 0 70px;
   text-align: center;
-  padding: 80px 0 40px;
-  max-width: 800px;
-  margin: 0 auto;
 }
 
 .hero h1 {
-  font-size: 48px;
+  font-size: 54px;
+  letter-spacing: -1px;
   margin-bottom: 10px;
 }
 
 .hero p {
   font-size: 18px;
-  color: #aaa;
-}
-
-/* ===== SECTION SPACING ===== */
-.section {
-  margin: 80px 0;
-}
-
-/* ===== PROJECT GRID (KEY MATCH CHANGE) ===== */
-.projects {
-  display: grid;
-  grid-template-columns: repeat(2, 1fr);
-  gap: 28px;
-  justify-content: center;
-  max-width: 1000px;
+  color: #a9b0bb;
+  max-width: 600px;
   margin: 0 auto;
 }
 
-/* ===== PROJECT CARDS ===== */
+/* NAV LINKS */
+.nav {
+  margin-top: 18px;
+}
+
+.nav a {
+  margin: 0 12px;
+  color: #ffffff;
+  text-decoration: none;
+  font-weight: 500;
+  opacity: 0.75;
+}
+
+.nav a:hover {
+  opacity: 1;
+}
+
+/* SECTION */
+.section {
+  margin: 90px 0;
+}
+
+.section-title {
+  font-size: 22px;
+  letter-spacing: 2px;
+  text-transform: uppercase;
+  color: #7f8aa3;
+  margin-bottom: 24px;
+}
+
+/* PROJECT GRID */
+.grid {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 26px;
+}
+
+/* CARD */
 .card {
-  border-radius: 12px;
+  background: #111827;
+  border: 1px solid #1f2937;
+  border-radius: 10px;
   overflow: hidden;
-  background: #ffffff08;
-  box-shadow: 0 6px 25px rgba(0,0,0,0.25);
-  transition: transform 0.2s ease;
+  transition: transform 0.25s ease, border 0.25s ease;
 }
 
 .card:hover {
   transform: translateY(-6px);
+  border-color: #3b82f6;
 }
 
 .card img {
@@ -62,127 +96,104 @@ title: Dev Singh - Game Design Portfolio
   display: block;
 }
 
+.card-body {
+  padding: 16px;
+}
+
 .card h3 {
-  margin: 14px 16px 6px;
+  margin: 0 0 8px;
+  font-size: 18px;
 }
 
 .card p {
-  margin: 0 16px 16px;
+  margin: 0;
+  color: #9aa4b2;
   font-size: 14px;
-  color: #ccc;
+  line-height: 1.5;
 }
 
-/* ===== LINKS ===== */
-.links a {
-  margin: 0 10px;
+/* BUTTON LINK */
+.link {
+  display: inline-block;
+  margin-top: 12px;
+  color: #60a5fa;
   text-decoration: none;
-  font-weight: 600;
-  color: #fff;
-}
-.links a:hover {
-  opacity: 0.7;
+  font-weight: 500;
 }
 
-/* ===== MOBILE ===== */
+.link:hover {
+  text-decoration: underline;
+}
+
+/* RESPONSIVE */
 @media (max-width: 768px) {
-  .projects {
+  .grid {
     grid-template-columns: 1fr;
   }
 
   .hero h1 {
-    font-size: 36px;
+    font-size: 38px;
   }
 }
 </style>
 
-<div class="hero">
-  <h1>Dev Singh</h1>
-  <p>Level Design • Cinematic Design • Interactive Systems</p>
+<div class="container">
 
-  <div class="links">
-    <a href="mailto:devrajssingh@yahoo.com">Email</a>
-    <a href="https://www.linkedin.com/in/devraj-singh-b62971261">LinkedIn</a>
-    <a href="https://devidog34.itch.io/">Itch.io</a>
+  <!-- HERO -->
+  <div class="hero">
+    <h1>Dev Singh</h1>
+    <p>Game Designer focused on systems, gameplay mechanics, and immersive interaction design.</p>
+
+    <div class="nav">
+      <a href="mailto:devrajssingh@yahoo.com">Email</a>
+      <a href="https://www.linkedin.com/in/devraj-singh-b62971261">LinkedIn</a>
+      <a href="https://devidog34.itch.io/">Itch.io</a>
+    </div>
   </div>
-</div>
 
----
+  <!-- PROJECTS -->
+  <div class="section">
+    <div class="section-title">Featured Projects</div>
 
-## 🎮 About Me
+    <div class="grid">
 
-I’m a game designer focused on **level design, cinematic direction, and interactive storytelling**.
+      <div class="card">
+        <img src="./manta.gif">
+        <div class="card-body">
+          <h3>🐠 Manta Ray</h3>
+          <p>Physics-based underwater movement system with AI schooling behavior and dynamic current forces.</p>
+          <a class="link" href="./manta-ray.md">View Case Study →</a>
+        </div>
+      </div>
 
-My goal is to create immersive experiences that captivate players and push the boundaries of creativity and technology in both games and film. :contentReference[oaicite:0]{index=0}  
+      <div class="card">
+        <img src="./unreal.gif">
+        <div class="card-body">
+          <h3>⚔️ Combat Prototype</h3>
+          <p>Third-person combat system focused on feedback, responsiveness, and cinematic event sequencing.</p>
+          <a class="link" href="./combat-prototype.md">View Case Study →</a>
+        </div>
+      </div>
 
-I specialize in designing environments and systems that guide player experience through movement, pacing, and visual storytelling.
+      <div class="card">
+        <img src="./level.gif">
+        <div class="card-body">
+          <h3>🧱 Level Design</h3>
+          <p>Level design experiments focused on player flow, spatial storytelling, and pacing control.</p>
+          <a class="link" href="./level-design.md">View Case Study →</a>
+        </div>
+      </div>
 
----
+    </div>
+  </div>
 
-## 🎮 Featured Projects
+  <!-- ABOUT -->
+  <div class="section">
+    <div class="section-title">About</div>
+    <p style="max-width:700px; color:#9aa4b2; line-height:1.7;">
+      I design gameplay systems that focus on player feel, interaction clarity, and environmental storytelling.
+      My work emphasizes physics-based mechanics, AI behavior systems, and cinematic gameplay pacing.
+    </p>
+  </div>
 
-<div class="projects">
-
-<div class="card">
-  <img src="./manta.gif">
-  <h3>🐠 Manta Ray (Unity)</h3>
-  <p>
-    Physics-based underwater experience featuring fluid movement, environmental interaction, and AI-driven fish behavior.
-  </p>
-</div>
-
-<div class="card">
-  <img src="./unreal.gif">
-  <h3>⚔️ Unreal Combat Prototype</h3>
-  <p>
-    Third-person gameplay prototype focused on combat systems, enemy interaction, and cinematic sequencing.
-  </p>
-</div>
-
-<div class="card">
-  <img src="./level.gif">
-  <h3>🧱 Level Design Experiments</h3>
-  <p>
-    Exploration of spatial design, player flow, and environmental storytelling using Unreal Engine tools.
-  </p>
-</div>
-
-</div>
-
----
-
-## 🎥 Gameplay Showcase
-
-<div style="text-align:center; margin-top:30px;">
-<iframe width="560" height="315" src="https://www.youtube.com/embed/YOUR_VIDEO_ID" frameborder="0" allowfullscreen></iframe>
-</div>
-
----
-
-## 🧠 Design Focus
-
-- Level Design & Player Flow  
-- Cinematic Direction & Sequencing  
-- Environmental Storytelling  
-- Gameplay Systems & Interaction  
-
----
-
-## 🛠️ Tools & Tech
-
-Unity • Unreal Engine 5 • C# • Blueprints • Git • Premiere Pro • OBS
-
----
-
-## 📬 Contact
-
-Email: devrajssingh@yahoo.com  
-Phone: 904-827-3160  
-LinkedIn: https://www.linkedin.com/in/devraj-singh-b62971261  
-Itch.io: https://devidog34.itch.io/  
-
----
-
-## ⚡ Notes
-
-This portfolio is actively being updated with new projects and systems.
 </div>
