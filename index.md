@@ -4,9 +4,19 @@ title: Dev Singh - Game Design Portfolio
 ---
 
 <style>
+/* ===== PAGE CONTAINER (this is the BIG fix) ===== */
+.page-wrapper {
+  max-width: 1100px;
+  margin: 0 auto;
+  padding: 0 24px;
+}
+
+/* ===== HERO ===== */
 .hero {
   text-align: center;
-  padding: 80px 20px 40px;
+  padding: 80px 0 40px;
+  max-width: 800px;
+  margin: 0 auto;
 }
 
 .hero h1 {
@@ -19,49 +29,69 @@ title: Dev Singh - Game Design Portfolio
   color: #aaa;
 }
 
+/* ===== SECTION SPACING ===== */
 .section {
-  margin: 60px 0;
-  text-align: center;
+  margin: 80px 0;
 }
 
+/* ===== PROJECT GRID (KEY MATCH CHANGE) ===== */
 .projects {
-  display: flex;
-  flex-wrap: wrap;
-  gap: 30px;
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 28px;
   justify-content: center;
+  max-width: 1000px;
+  margin: 0 auto;
 }
 
+/* ===== PROJECT CARDS ===== */
 .card {
-  width: 320px;
   border-radius: 12px;
   overflow: hidden;
   background: #ffffff08;
-  box-shadow: 0 6px 25px rgba(0,0,0,0.3);
-  padding-bottom: 15px;
+  box-shadow: 0 6px 25px rgba(0,0,0,0.25);
   transition: transform 0.2s ease;
 }
 
 .card:hover {
-  transform: translateY(-5px);
+  transform: translateY(-6px);
 }
 
 .card img {
   width: 100%;
+  display: block;
 }
 
 .card h3 {
-  margin: 15px;
+  margin: 14px 16px 6px;
 }
 
 .card p {
-  margin: 0 15px 15px;
+  margin: 0 16px 16px;
   font-size: 14px;
+  color: #ccc;
 }
 
+/* ===== LINKS ===== */
 .links a {
   margin: 0 10px;
   text-decoration: none;
-  font-weight: bold;
+  font-weight: 600;
+  color: #fff;
+}
+.links a:hover {
+  opacity: 0.7;
+}
+
+/* ===== MOBILE ===== */
+@media (max-width: 768px) {
+  .projects {
+    grid-template-columns: 1fr;
+  }
+
+  .hero h1 {
+    font-size: 36px;
+  }
 }
 </style>
 
