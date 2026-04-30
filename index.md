@@ -2,12 +2,50 @@
 layout: default
 title: Dev Singh - Game Design Portfolio
 ---
-
+<div class="container">
+<div class="topbar">
+  <div class="brand">
+    <img src="./dev-logo.png" alt="Dev With Dev Logo" />
+    <span>Dev With Dev</span>
+  </div>
+</div>
+   
 <style>
 /* =========================
    AAA STYLE SYSTEM
 ========================= */
+.topbar {
+  position: sticky;
+  top: 0;
+  width: 100%;
+  padding: 18px 0;
+  background: rgba(11, 15, 23, 0.85);
+  backdrop-filter: blur(10px);
+  border-bottom: 1px solid #1f2937;
+  z-index: 999;
+}
 
+.brand {
+  display: flex;
+  align-items: center;
+  gap: 12px;
+  max-width: 1040px;
+  margin: 0 auto;
+  padding: 0 24px;
+}
+
+.brand img {
+  width: 34px;
+  height: 34px;
+  object-fit: contain;
+}
+
+.brand span {
+  font-size: 16px;
+  font-weight: 600;
+  letter-spacing: 0.5px;
+  color: #eaeaea;
+}
 body {
   background: #0b0f17;
   color: #eaeaea;
