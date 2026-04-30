@@ -1,89 +1,125 @@
-# Dev Singh - Game Design Portfolio
+---
+layout: default
+title: Dev Singh - Game Design Portfolio
+---
 
-🎮 Game Designer | Unity & Unreal Engine Developer  
-📍 Orlando, Florida  
+<style>
+.hero {
+  text-align: center;
+  padding: 60px 20px;
+}
+
+.hero h1 {
+  font-size: 42px;
+  margin-bottom: 10px;
+}
+
+.hero p {
+  font-size: 18px;
+  color: #555;
+}
+
+.section {
+  margin: 60px 0;
+}
+
+.projects {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 30px;
+  justify-content: center;
+}
+
+.card {
+  width: 320px;
+  border-radius: 12px;
+  overflow: hidden;
+  background: #ffffff10;
+  box-shadow: 0 4px 20px rgba(0,0,0,0.2);
+  padding-bottom: 15px;
+}
+
+.card img {
+  width: 100%;
+}
+
+.card h3 {
+  margin: 15px;
+}
+
+.card p {
+  margin: 0 15px 15px 15px;
+  font-size: 14px;
+}
+
+.card a {
+  margin-left: 15px;
+  text-decoration: none;
+  font-weight: bold;
+}
+</style>
+
+<div class="hero">
+  <h1>Dev Singh</h1>
+  <p>Game Designer focused on Gameplay Systems, AI, and Physics-Based Interaction</p>
+  <p>
+    <a href="mailto:your@email.com">Email</a> |
+    <a href="#">LinkedIn</a> |
+    <a href="#">Resume</a>
+  </p>
+</div>
 
 ---
 
-## 🧠 About Me
-I am a game design student focused on creating gameplay systems that feel responsive, dynamic, and immersive. My work centers around physics-based mechanics, AI behavior, and interactive environments.
+## 🎮 Featured Projects
 
-I enjoy building systems that influence player movement and decision-making, especially in unique environments like underwater or physics-driven worlds.
+<div class="projects">
 
----
+<div class="card">
+  <img src="./manta.gif">
+  <h3>🐠 Manta Ray (Unity)</h3>
+  <p>
+    Physics-based underwater movement system with AI schooling behavior and dynamic currents.
+  </p>
+  <a href="#">Watch Video →</a>
+</div>
 
-## 🎮 Projects
+<div class="card">
+  <img src="./combat.gif">
+  <h3>⚔️ Combat Prototype (Unreal)</h3>
+  <p>
+    Third-person combat system with projectile damage, enemy reactions, and event-driven sequencing.
+  </p>
+  <a href="#">Watch Video →</a>
+</div>
 
-### 🐠 Manta Ray (Unity)
-A physics-based underwater experience where the player controls a manta ray navigating ocean currents and interacting with schools of fish.
-
-**Key Features:**
-- Physics-based movement system
-- Boids AI fish system (compute shader)
-- Dynamic water current system affecting rigidbodies
-- Environmental interaction design
-
-🎥 Gameplay: *(Add YouTube link here)*  
-💻 Code: *(Link your repo if separate)*  
-
----
-
-### ⚔️ Unreal Engine Combat Prototype
-A third-person prototype focused on enemy interaction and combat feedback.
-
-**Key Features:**
-- Enemy damage system
-- Projectile-based combat
-- Event-driven level sequencing
-- Blueprint and C++ integration
-
-🎥 Gameplay: *(Add video link)*  
+</div>
 
 ---
 
-### 🌊 Environmental Systems (WIP)
-A collection of systems focused on environmental interaction and world dynamics.
+## 🧠 Design Focus
 
-**Includes:**
-- Water current force zones
-- Reactive sea vegetation (physics-based)
-- AI behavior experimentation
+- Physics-driven gameplay systems  
+- AI behaviors (Boids, reactive logic)  
+- Environmental interaction design  
 
 ---
 
-## 🛠️ Skills
+## 🎥 Gameplay
 
-**Game Engines**
-- Unity (C#)
-- Unreal Engine (Blueprints & C++)
-
-**Systems Design**
-- Player movement mechanics
-- AI behavior (Boids, logic systems)
-- Physics-based interactions
-
-**Tools**
-- Git & GitHub
-- Adobe Premiere Pro
-- OBS Studio
+<div style="text-align:center; margin-top:30px;">
+<iframe width="560" height="315" src="https://www.youtube.com/embed/YOUR_VIDEO_ID" frameborder="0" allowfullscreen></iframe>
+</div>
 
 ---
 
-## 📸 Media
+## 🛠️ Tools & Tech
 
-*(Replace with GIFs or images)*
-
-![Gameplay GIF](your-gif-link-here)
+Unity • Unreal Engine • C# • Blueprints • Git • Premiere Pro • OBS
 
 ---
 
 ## 📬 Contact
 
-📧 Email: your-email@example.com  
-💼 LinkedIn: *(Add link)*  
-🎥 YouTube: *(Optional)*  
-
----
-
-## ⚡ Notes
-This portfolio is actively being updated with new systems and projects.
+Email: your@email.com  
+LinkedIn: link  
