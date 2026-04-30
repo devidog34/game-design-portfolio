@@ -5,7 +5,7 @@ title: Dev Singh - Game Design Portfolio
 <div class="container">
 <div class="topbar">
   <div class="brand">
-    <img src="./dev-logo.png" alt="Dev With Dev Logo" />
+    <img src="./dev-logo.jpg" alt="Dev With Dev Logo" />
     <span>Dev With Dev</span>
   </div>
 </div>
