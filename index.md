@@ -2,18 +2,21 @@
 layout: default
 title: Dev Singh - Game Design Portfolio
 ---
+
 <div class="container">
-<div class="topbar">
-  <div class="brand">
-    <img src="./dev-logo.jpg" alt="Dev With Dev Logo" />
-    <span>Dev With Dev</span>
+
+  <div class="topbar">
+    <div class="brand">
+      <img src="./dev-logo.jpg" alt="Dev With Dev Logo" />
+      <span>Dev With Dev</span>
+    </div>
   </div>
-</div>
-   
+
 <style>
 /* =========================
    AAA STYLE SYSTEM
 ========================= */
+
 .topbar {
   position: sticky;
   top: 0;
@@ -46,20 +49,19 @@ title: Dev Singh - Game Design Portfolio
   letter-spacing: 0.5px;
   color: #eaeaea;
 }
+
 body {
   background: #0b0f17;
   color: #eaeaea;
   font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif;
 }
 
-/* CONTAINER */
 .container {
   max-width: 1040px;
   margin: 0 auto;
   padding: 0 24px;
 }
 
-/* HERO */
 .hero {
   padding: 110px 0 70px;
   text-align: center;
@@ -78,7 +80,6 @@ body {
   margin: 0 auto;
 }
 
-/* NAV LINKS */
 .nav {
   margin-top: 18px;
 }
@@ -95,7 +96,6 @@ body {
   opacity: 1;
 }
 
-/* SECTION */
 .section {
   margin: 90px 0;
 }
@@ -108,14 +108,12 @@ body {
   margin-bottom: 24px;
 }
 
-/* PROJECT GRID */
 .grid {
   display: grid;
   grid-template-columns: repeat(2, 1fr);
   gap: 26px;
 }
 
-/* CARD */
 .card {
   background: #111827;
   border: 1px solid #1f2937;
@@ -150,7 +148,6 @@ body {
   line-height: 1.5;
 }
 
-/* BUTTON LINK */
 .link {
   display: inline-block;
   margin-top: 12px;
@@ -163,7 +160,6 @@ body {
   text-decoration: underline;
 }
 
-/* RESPONSIVE */
 @media (max-width: 768px) {
   .grid {
     grid-template-columns: 1fr;
@@ -175,8 +171,6 @@ body {
 }
 </style>
 
-<div class="container">
-
   <!-- HERO -->
   <div class="hero">
     <h1>Dev Singh</h1>
@@ -184,8 +178,8 @@ body {
 
     <div class="nav">
       <a href="mailto:devrajssingh@yahoo.com">Email</a>
-      <a href="https://www.linkedin.com/in/devraj-singh-b62971261">LinkedIn</a>
-      <a href="https://devidog34.itch.io/">Itch.io</a>
+      <a href="https://www.linkedin.com/in/devraj-singh-b62971261" target="_blank" rel="noopener noreferrer">LinkedIn</a>
+      <a href="https://devidog34.itch.io/" target="_blank" rel="noopener noreferrer">Itch.io</a>
     </div>
   </div>
 
@@ -200,7 +194,7 @@ body {
         <div class="card-body">
           <h3>🐠 Manta Ray</h3>
           <p>Physics-based underwater movement system with AI schooling behavior and dynamic current forces.</p>
-          <a class="link" href="./manta-ray.md">View Case Study →</a>
+          <a class="link" href="./manta-ray.html">View Case Study →</a>
         </div>
       </div>
 
@@ -209,7 +203,7 @@ body {
         <div class="card-body">
           <h3>⚔️ Combat Prototype</h3>
           <p>Third-person combat system focused on feedback, responsiveness, and cinematic event sequencing.</p>
-          <a class="link" href="./combat-prototype.md">View Case Study →</a>
+          <a class="link" href="./combat-prototype.html">View Case Study →</a>
         </div>
       </div>
 
@@ -218,7 +212,7 @@ body {
         <div class="card-body">
           <h3>🧱 Level Design</h3>
           <p>Level design experiments focused on player flow, spatial storytelling, and pacing control.</p>
-          <a class="link" href="./level-design.md">View Case Study →</a>
+          <a class="link" href="./level-design.html">View Case Study →</a>
         </div>
       </div>
 
