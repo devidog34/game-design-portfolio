@@ -242,10 +242,10 @@ body {
 <div class="topbar">
   <div class="topbar-inner">
 
-    <div class="brand">
-      <img src="./dev-logo.jpg" alt="Dev With Dev Logo">
-      <span>Dev With Dev</span>
-    </div>
+   <a href="/" class="brand">
+     <img src="./dev-logo.jpg" alt="Dev With Dev Logo">
+     <span>Dev With Dev</span>
+   </a>
 
     <div class="topbar-right">
 
