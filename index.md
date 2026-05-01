@@ -45,7 +45,6 @@ body {
   margin: 0 auto;
 }
 
-/* LEFT SIDE */
 .brand {
   display: flex;
   align-items: center;
@@ -147,12 +146,49 @@ body {
   border-color: #3b82f6;
 }
 
+/* IMAGE + VIDEO SIZE */
 .card img,
 .card iframe {
   width: 100%;
   height: 200px;
   display: block;
   border: none;
+}
+
+/* ===== VIDEO HOVER SYSTEM ===== */
+.video-wrapper {
+  position: relative;
+  width: 100%;
+  height: 200px;
+  overflow: hidden;
+}
+
+.thumbnail {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  display: block;
+  transition: opacity 0.3s ease;
+}
+
+.video {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  border: none;
+  opacity: 0;
+  pointer-events: none;
+  transition: opacity 0.3s ease;
+}
+
+.video-card:hover .video {
+  opacity: 1;
+}
+
+.video-card:hover .thumbnail {
+  opacity: 0;
 }
 
 /* CONTENT */
@@ -202,27 +238,23 @@ body {
 }
 </style>
 
-<!-- TOP BAR -->
+<!-- ===== TOPBAR ===== -->
 <div class="topbar">
   <div class="topbar-inner">
 
-    <!-- LEFT -->
     <div class="brand">
       <img src="./dev-logo.jpg" alt="Dev With Dev Logo">
       <span>Dev With Dev</span>
     </div>
 
-    <!-- RIGHT -->
     <div class="topbar-right">
 
-      <!-- CONTACT -->
       <div class="contact">
         <a href="mailto:devrajssingh@yahoo.com">Email</a>
         <a href="https://www.linkedin.com/in/devraj-singh-b62971261" target="_blank" rel="noopener noreferrer">LinkedIn</a>
         <a href="https://devidog34.itch.io/" target="_blank" rel="noopener noreferrer">Itch.io</a>
       </div>
 
-      <!-- NAV -->
       <div class="nav">
         <a href="#level-design">Level Design</a>
         <a href="#cinematic-design">Cinematic Design</a>
@@ -263,13 +295,20 @@ body {
 
     <div class="grid">
 
-      <!-- MANTA VIDEO -->
-      <div class="card">
-        <iframe 
-          src="https://www.youtube-nocookie.com/embed/-GJStUShhT0?start=53&autoplay=1&mute=1&playsinline=1&loop=1&playlist=-GJStUShhT0"
-          allow="autoplay; encrypted-media"
-          allowfullscreen>
-        </iframe>
+      <!-- MANTA VIDEO CARD -->
+      <div class="card video-card">
+        <div class="video-wrapper">
+
+          <img src="./manta-thumb.jpg" class="thumbnail">
+
+          <iframe 
+            class="video"
+            src="https://www.youtube-nocookie.com/embed/-GJStUShhT0?start=53&autoplay=1&mute=1&controls=0&playsinline=1&loop=1&playlist=-GJStUShhT0&modestbranding=1"
+            allow="autoplay; encrypted-media">
+          </iframe>
+
+        </div>
+
         <div class="card-body">
           <h3>Manta Ray</h3>
           <p>Environmental interaction and movement-driven cinematic gameplay.</p>
@@ -277,6 +316,7 @@ body {
         </div>
       </div>
 
+      <!-- COMBAT -->
       <div class="card">
         <img src="./unreal.gif">
         <div class="card-body">
