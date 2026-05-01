@@ -8,6 +8,10 @@ title: Dev Singh - Game Design Portfolio
    AAA STYLE SYSTEM
 ========================= */
 
+html {
+  scroll-behavior: smooth;
+}
+
 body {
   background: #0b0f17;
   color: #eaeaea;
@@ -41,7 +45,7 @@ body {
   margin: 0 auto;
 }
 
-/* LEFT SIDE (LOGO) */
+/* LEFT SIDE */
 .brand {
   display: flex;
   align-items: center;
@@ -65,7 +69,7 @@ body {
   gap: 30px;
 }
 
-/* CONTACT LINKS */
+/* CONTACT */
 .contact a {
   margin: 0 6px;
   font-size: 14px;
@@ -77,7 +81,7 @@ body {
   color: #ffffff;
 }
 
-/* NAVIGATION */
+/* NAV */
 .nav a {
   margin-left: 18px;
   font-size: 14px;
@@ -143,10 +147,15 @@ body {
   border-color: #3b82f6;
 }
 
-.card img {
+.card img,
+.card iframe {
   width: 100%;
+  height: 200px;
+  display: block;
+  border: none;
 }
 
+/* CONTENT */
 .card-body {
   padding: 16px;
 }
@@ -186,9 +195,14 @@ body {
     flex-direction: column;
     gap: 10px;
   }
+
+  .hero h1 {
+    font-size: 38px;
+  }
 }
 </style>
 
+<!-- TOP BAR -->
 <div class="topbar">
   <div class="topbar-inner">
 
@@ -248,6 +262,21 @@ body {
     <div class="section-title">Cinematic Design</div>
 
     <div class="grid">
+
+      <!-- MANTA VIDEO -->
+      <div class="card">
+        <iframe 
+          src="https://www.youtube-nocookie.com/embed/-GJStUShhT0?start=53&autoplay=1&mute=1&playsinline=1&loop=1&playlist=-GJStUShhT0"
+          allow="autoplay; encrypted-media"
+          allowfullscreen>
+        </iframe>
+        <div class="card-body">
+          <h3>Manta Ray</h3>
+          <p>Environmental interaction and movement-driven cinematic gameplay.</p>
+          <a class="link" href="./manta-ray.html">View Case Study →</a>
+        </div>
+      </div>
+
       <div class="card">
         <img src="./unreal.gif">
         <div class="card-body">
@@ -257,14 +286,6 @@ body {
         </div>
       </div>
 
-      <div class="card">
-        <img src="./manta.gif">
-        <div class="card-body">
-          <h3>Manta Ray</h3>
-          <p>Environmental interaction and movement-driven cinematic gameplay.</p>
-          <a class="link" href="./manta-ray.html">View Case Study →</a>
-        </div>
-      </div>
     </div>
   </div>
 
