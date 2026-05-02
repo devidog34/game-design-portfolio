@@ -310,9 +310,9 @@ body {
         </div>
 
         <div class="card-body">
-          <h3>Manta Ray</h3>
+          <h3>Abyssal Shade</h3>
           <p>Environmental interaction and movement-driven cinematic gameplay.</p>
-          <a class="link" href="./manta-ray.html">View Case Study →</a>
+          <a class="link" href="./manta-ray.html">View Game →</a>
         </div>
       </div>
 
@@ -322,7 +322,7 @@ body {
         <div class="card-body">
           <h3>Combat Prototype</h3>
           <p>Cinematic combat flow, sequencing, and player feedback systems.</p>
-          <a class="link" href="./combat-prototype.html">View Case Study →</a>
+          <a class="link" href="./combat-prototype.html">View Game →</a>
         </div>
       </div>
 
