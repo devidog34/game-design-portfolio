@@ -228,7 +228,7 @@ body {
         <div class="card-body">
           <h3>Abyssal Shade</h3>
           <p>Underwater gameplay system with environmental interaction.</p>
-          <a class="link" href="./abyssal-shade.html"">View Game →</a>
+          <a class="link" href="./abyssal-shade.html">View Game →</a>
         </div>
       </div>
 
