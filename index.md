@@ -269,7 +269,7 @@ body {
 
   <!-- HERO -->
   <div class="hero">
-    <h1>Dev Singh</h1>
+    <h1>Devraj "Dev" Singh</h1>
     <p>Game Designer focused on systems, level design, and cinematic gameplay experiences.</p>
   </div>
 
