@@ -1,6 +1,6 @@
 ---
 layout: default
-title: Dev Singh - Game Design Portfolio
+title: Devraj "Dev" Singh - Game Design Portfolio
 ---
 
 <style>
