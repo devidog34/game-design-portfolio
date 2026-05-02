@@ -299,7 +299,7 @@ body {
       <div class="card video-card">
         <div class="video-wrapper">
 
-          <img src="./manta-thumb.jpg" class="thumbnail">
+          <img src="./manta-thumb.png" class="thumbnail">
 
           <iframe 
             class="video"
