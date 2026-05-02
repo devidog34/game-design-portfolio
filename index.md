@@ -207,6 +207,7 @@ body {
       <div class="nav">
         <a href="./level-design.html">Level Design</a>
         <a href="./cinematic-design.html">Cinematic</a>
+        <a href="./about.html">About Me</a>
       </div>
 
     </div>
