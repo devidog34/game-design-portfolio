@@ -16,7 +16,7 @@ body {
 .container {
   max-width: 1040px;
   margin: 0 auto;
-  padding: 40px 24px;
+  padding: 20px 24px 40px;
 }
 
 /* ===== TOPBAR ===== */
@@ -53,30 +53,13 @@ body {
   height: 32px;
 }
 
-/* NAME + TAGLINE */
-.identity {
-  margin-left: 16px;
-}
-
-.identity h1 {
-  font-size: 16px;
-  margin: 0;
-}
-
-.identity p {
-  font-size: 12px;
-  color: #9aa4b2;
-  margin: 0;
-}
-
-/* RIGHT SIDE */
+/* RIGHT */
 .topbar-right {
   display: flex;
   align-items: center;
   gap: 30px;
 }
 
-/* CONTACT */
 .contact a {
   margin: 0 6px;
   font-size: 13px;
@@ -84,11 +67,8 @@ body {
   text-decoration: none;
 }
 
-.contact a:hover {
-  color: #ffffff;
-}
+.contact a:hover { color: #ffffff; }
 
-/* NAV */
 .nav a {
   margin-left: 16px;
   font-size: 13px;
@@ -97,21 +77,36 @@ body {
   opacity: 0.8;
 }
 
-.nav a:hover {
-  opacity: 1;
+.nav a:hover { opacity: 1; }
+
+/* ===== HERO (SMALL + TIGHT) ===== */
+.hero {
+  padding: 40px 0 20px;
+  text-align: center;
+}
+
+.hero h1 {
+  font-size: 34px;
+  margin-bottom: 6px;
+}
+
+.hero p {
+  font-size: 15px;
+  color: #9aa4b2;
+  margin: 0;
 }
 
 /* SECTION */
 .section {
-  margin-top: 40px;
+  margin-top: 30px;
 }
 
 .section-title {
-  font-size: 20px;
+  font-size: 18px;
   letter-spacing: 2px;
   text-transform: uppercase;
   color: #7f8aa3;
-  margin-bottom: 20px;
+  margin-bottom: 16px;
 }
 
 /* GRID */
@@ -185,6 +180,10 @@ body {
 /* MOBILE */
 @media (max-width: 768px) {
   .grid { grid-template-columns: 1fr; }
+
+  .hero h1 {
+    font-size: 26px;
+  }
 }
 </style>
 
@@ -192,20 +191,11 @@ body {
 <div class="topbar">
   <div class="topbar-inner">
 
-    <!-- LEFT -->
-    <div style="display:flex; align-items:center;">
-      <a href="./index.html" class="brand">
-        <img src="./dev-logo.jpg">
-        <span>Dev With Dev</span>
-      </a>
+    <a href="./index.html" class="brand">
+      <img src="./dev-logo.jpg">
+      <span>Dev With Dev</span>
+    </a>
 
-      <div class="identity">
-        <h1>Devraj "Dev" Singh</h1>
-        <p>Game Designer • Systems • Gameplay • Level Design</p>
-      </div>
-    </div>
-
-    <!-- RIGHT -->
     <div class="topbar-right">
 
       <div class="contact">
@@ -225,6 +215,12 @@ body {
 </div>
 
 <div class="container">
+
+  <!-- HERO (COMPACT) -->
+  <div class="hero">
+    <h1>Devraj "Dev" Singh</h1>
+    <p>Game Designer focused on gameplay systems, player feel, and immersive interaction.</p>
+  </div>
 
   <!-- PROJECTS -->
   <div class="section">
@@ -247,8 +243,45 @@ body {
         </div>
       </div>
 
-      <!-- OTHER PROJECTS (unchanged) -->
-      <!-- keep your other 4 cards here -->
+     <!-- The Lone Town -->
+      <div class="card">
+        <img src="./lone-town.gif">
+        <div class="card-body">
+          <h3>The Lone Town</h3>
+          <p>Atmospheric environment focused on exploration and mood.</p>
+          <a class="link" href="#">View Game →</a>
+        </div>
+      </div>
+
+      <!-- S.O.R.N -->
+      <div class="card">
+        <img src="./sorn.gif">
+        <div class="card-body">
+          <h3>S.O.R.N</h3>
+          <p>Experimental gameplay systems and combat interactions.</p>
+          <a class="link" href="#">View Game →</a>
+        </div>
+      </div>
+
+      <!-- Ripple Rescue -->
+      <div class="card">
+        <img src="./ripple.gif">
+        <div class="card-body">
+          <h3>Ripple Rescue</h3>
+          <p>Mechanic-driven gameplay focused on player movement.</p>
+          <a class="link" href="#">View Game →</a>
+        </div>
+      </div>
+
+      <!-- David’s Mighty Men -->
+      <div class="card">
+        <img src="./david.gif">
+        <div class="card-body">
+          <h3>David’s Mighty Men</h3>
+          <p>Team-based gameplay and character interaction systems.</p>
+          <a class="link" href="#">View Game →</a>
+        </div>
+      </div>
 
     </div>
 
