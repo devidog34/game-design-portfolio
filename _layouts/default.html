@@ -24,6 +24,22 @@
       z-index: 999;
     }
 
+    body {
+  animation: fadeIn 0.25s ease;
+}
+
+@keyframes fadeIn {
+  from {
+    opacity: 0;
+    transform: translateY(4px);
+  }
+
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
     .topbar-inner {
       display: flex;
       justify-content: space-between;
@@ -63,17 +79,46 @@
       color: #ffffff;
     }
 
-    .nav a {
-      margin-left: 16px;
-      font-size: 13px;
-      color: #ffffff;
-      text-decoration: none;
-      opacity: 0.8;
-    }
+   .nav {
+  display: flex;
+  align-items: center;
+  gap: 16px;
+}
 
-    .nav a:hover {
-      opacity: 1;
-    }
+.nav-dropdown {
+  position: relative;
+}
+
+.dropdown-menu {
+  position: absolute;
+  top: 24px;
+  right: 0;
+  min-width: 180px;
+  background: #111827;
+  border: 1px solid #1f2937;
+  border-radius: 8px;
+  padding: 8px;
+  display: none;
+  z-index: 1000;
+}
+
+.dropdown-menu a {
+  display: block;
+  margin: 0;
+  padding: 8px 10px;
+  color: #9aa4b2;
+  white-space: nowrap;
+}
+
+.dropdown-menu a:hover {
+  color: #ffffff;
+  background: #1f2937;
+  border-radius: 6px;
+}
+
+.nav-dropdown:hover .dropdown-menu {
+  display: block;
+}
   </style>
 </head>
 
@@ -96,12 +141,26 @@
         <a href="https://devidog34.itch.io/" target="_blank" rel="noopener noreferrer">Itch.io</a>
       </div>
 
-      <div class="nav">
-        <a href="{{ '/about.html' | relative_url }}">About</a>
-        <a href="{{ '/level-design.html' | relative_url }}">Level Design</a>
-        <a href="{{ '/cinematic-design.html' | relative_url }}">Cinematic</a>
-      </div>
+    <div class="nav">
+  <div class="nav-dropdown">
+    <a href="{{ '/level-design.html' | relative_url }}">Level Design</a>
+    <div class="dropdown-menu">
+      <a href="{{ '/lone-town.html' | relative_url }}">The Lone Town</a>
+      <a href="{{ '/davids-mighty-men.html' | relative_url }}">David’s Mighty Men</a>
+    </div>
+  </div>
 
+  <div class="nav-dropdown">
+    <a href="{{ '/cinematic-design.html' | relative_url }}">Cinematic</a>
+    <div class="dropdown-menu">
+      <a href="{{ '/abyssal-shade.html' | relative_url }}">Abyssal Shade</a>
+      <a href="{{ '/sorn.html' | relative_url }}">S.O.R.N</a>
+      <a href="{{ '/ripple-rescue.html' | relative_url }}">Ripple Rescue</a>
+    </div>
+  </div>
+
+  <a href="{{ '/about.html' | relative_url }}">About</a>
+</div>
     </div>
 
   </div>
