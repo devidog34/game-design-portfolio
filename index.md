@@ -226,15 +226,26 @@ body {
         </div>
       </div>
 
-      <!-- S.O.R.N -->
-      <div class="card">
-        <img src="./sorn.gif">
-        <div class="card-body">
-          <h3>S.O.R.N</h3>
-          <p>Experimental gameplay systems and combat interactions.</p>
-          <a class="link" href="#">View Game →</a>
-        </div>
-      </div>
+<!-- S.O.R.N -->
+<div class="card video-card">
+  <div class="video-wrapper">
+
+    <!-- THUMBNAIL (shows first) -->
+    <img src="./sorn-thumb.png" class="thumbnail">
+
+    <!-- VIDEO (appears on hover) -->
+    <iframe class="video"
+      src="https://www.youtube-nocookie.com/embed/YOUR_VIDEO_ID?autoplay=1&mute=1&controls=0&loop=1&playlist=YOUR_VIDEO_ID">
+    </iframe>
+
+  </div>
+
+  <div class="card-body">
+    <h3>S.O.R.N</h3>
+    <p>Experimental gameplay systems and combat interactions.</p>
+    <a class="link" href="./sorn.html">View Game →</a>
+  </div>
+</div>
 
       <!-- Ripple Rescue -->
       <div class="card">
