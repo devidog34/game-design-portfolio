@@ -11,29 +11,47 @@ body {
 }
 
 .container {
-  max-width: 900px;
+  max-width: 1040px;
   margin: 0 auto;
-  padding: 60px 24px 80px;
+  padding: 60px 24px 100px;
 }
 
-/* TITLE */
-h1 {
-  font-size: 40px;
+/* HERO */
+.hero {
+  display: grid;
+  grid-template-columns: 1.2fr 0.8fr;
+  gap: 40px;
+  align-items: center;
+  margin-bottom: 60px;
+}
+
+.hero h1 {
+  font-size: 42px;
   margin-bottom: 10px;
 }
 
-.subtitle {
+.hero p {
   color: #9aa4b2;
-  margin-bottom: 40px;
+  line-height: 1.6;
 }
 
-/* SECTION */
+.profile-img {
+  width: 100%;
+  border-radius: 12px;
+  border: 1px solid #1f2937;
+}
+
+/* SECTION CARDS */
 .section {
-  margin: 50px 0;
+  margin: 40px 0;
+  padding: 24px;
+  background: #111827;
+  border: 1px solid #1f2937;
+  border-radius: 10px;
 }
 
 .section h2 {
-  font-size: 20px;
+  font-size: 18px;
   margin-bottom: 10px;
 }
 
@@ -51,10 +69,15 @@ h1 {
 }
 
 .contact-box {
-  background: #111827;
+  background: #0b0f17;
   border: 1px solid #1f2937;
   padding: 16px;
   border-radius: 8px;
+  transition: 0.2s ease;
+}
+
+.contact-box:hover {
+  border-color: #3b82f6;
 }
 
 .contact-box h4 {
@@ -70,38 +93,82 @@ h1 {
   text-decoration: none;
 }
 
+/* BUTTON */
+.button {
+  display: inline-block;
+  margin-top: 10px;
+  padding: 10px 16px;
+  border: 1px solid #3b82f6;
+  border-radius: 6px;
+  color: #60a5fa;
+  text-decoration: none;
+  transition: 0.2s ease;
+}
+
+.button:hover {
+  background: #3b82f6;
+  color: white;
+}
+
 /* BACK */
 .back {
   display: inline-block;
-  margin-top: 50px;
+  margin-top: 60px;
   color: #60a5fa;
   text-decoration: none;
+}
+
+/* MOBILE */
+@media (max-width: 768px) {
+  .hero {
+    grid-template-columns: 1fr;
+  }
+
+  .contact-grid {
+    grid-template-columns: 1fr;
+  }
 }
 </style>
 
 <div class="container">
 
-  <!-- TITLE -->
-  <h1>About Me</h1>
-  <p class="subtitle">
-    Game Designer focused on level design, cinematic direction, and immersive gameplay systems.
-  </p>
+  <!-- HERO -->
+  <div class="hero">
+
+    <div>
+      <h1>Devraj "Dev" Singh</h1>
+      <p>
+        Game Designer focused on gameplay systems, level design, and cinematic player experiences.
+        I specialize in creating interactive moments that feel intentional, responsive, and immersive.
+      </p>
+    </div>
+
+    <!-- REPLACE THIS IMAGE -->
+    <img src="./profile.jpg" class="profile-img">
+  </div>
 
   <!-- GOAL -->
   <div class="section">
     <h2>The Goal</h2>
     <p>
-      I strive to create immersive gaming experiences that captivate players around the world. 
-      My mission is to push the boundaries of creativity and technology in video game and film development.
+      My goal is to create immersive gameplay experiences that resonate with players through strong design, 
+      responsive systems, and meaningful interaction. I aim to bridge technical implementation with creative direction 
+      to build experiences that feel both polished and intentional.
     </p>
   </div>
 
-  <!-- ABOUT -->
+  <!-- WHAT I DO -->
   <div class="section">
     <h2>What I Do</h2>
     <p>
-      I focus on designing gameplay systems, level experiences, and cinematic sequences that feel intentional, responsive, and engaging.
-      My work blends technical implementation with design thinking to create interactive moments that feel natural and memorable.
+      I design and implement gameplay systems that emphasize player feel, clarity, and interaction.
+      My work focuses on:
+    </p>
+    <p>
+      • Gameplay Systems & Mechanics<br>
+      • Level Design & Player Flow<br>
+      • Cinematic Gameplay & Sequencing<br>
+      • Physics-Based Interaction Design
     </p>
   </div>
 
@@ -109,8 +176,8 @@ h1 {
   <div class="section">
     <h2>Contact</h2>
     <p>
-      I’m always open to new opportunities in level design, cinematic direction, and interactive storytelling. :contentReference[oaicite:0]{index=0}  
-      Whether you’re a studio, collaborator, or just curious about my work — feel free to reach out.
+      I’m open to opportunities in game design, level design, and cinematic gameplay.
+      Feel free to reach out for collaboration or professional inquiries.
     </p>
 
     <div class="contact-grid">
@@ -148,7 +215,9 @@ h1 {
     <p>
       Download my resume for a full overview of my experience, skills, and projects.
     </p>
-    <a class="back" href="./resume.pdf" target="_blank">View Resume →</a>
+
+    <!-- ADD YOUR FILE -->
+    <a class="button" href="./resume.pdf" target="_blank">View Resume</a>
   </div>
 
   <!-- BACK -->
