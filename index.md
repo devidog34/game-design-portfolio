@@ -187,34 +187,6 @@ body {
 }
 </style>
 
-<!-- HEADER -->
-<div class="topbar">
-  <div class="topbar-inner">
-
-    <a href="./index.html" class="brand">
-      <img src="./dev-logo.jpg">
-      <span>Dev With Dev</span>
-    </a>
-
-    <div class="topbar-right">
-
-      <div class="contact">
-        <a href="mailto:devrajssingh@yahoo.com">Email</a>
-        <a href="https://www.linkedin.com/in/devraj-singh-b62971261" target="_blank">LinkedIn</a>
-        <a href="https://devidog34.itch.io/" target="_blank">Itch.io</a>
-      </div>
-
-      <div class="nav">
-        <a href="./level-design.html">Level Design</a>
-        <a href="./cinematic-design.html">Cinematic</a>
-        <a href="./about.html">About Me</a>
-      </div>
-
-    </div>
-
-  </div>
-</div>
-
 <div class="container">
 
   <!-- HERO (COMPACT) -->
