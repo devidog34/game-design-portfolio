@@ -6,6 +6,23 @@ title: Devraj "Dev" Singh - Game Design Portfolio
 <style>
 html { scroll-behavior: smooth; }
 
+  /* FOOTER */
+.footer {
+  margin-top: 60px;
+  border-top: 1px solid #1f2937;
+  padding: 20px 0;
+}
+
+.footer-inner {
+  max-width: 1040px;
+  margin: 0 auto;
+  padding: 0 24px;
+  display: flex;
+  justify-content: space-between;
+  font-size: 13px;
+  color: #7f8aa3;
+}
+
 body {
   background: #0b0f17;
   color: #eaeaea;
@@ -86,14 +103,14 @@ body {
 }
 
 .hero h1 {
-  font-size: 34px;
+  font-size: 36px;
   margin-bottom: 6px;
+  letter-spacing: -0.5px;
 }
 
 .hero p {
   font-size: 15px;
-  color: #9aa4b2;
-  margin: 0;
+  color: #a1a8b5;
 }
 
 /* SECTION */
@@ -102,11 +119,28 @@ body {
 }
 
 .section-title {
-  font-size: 18px;
-  letter-spacing: 2px;
+  font-size: 22px;
+  letter-spacing: 3px;
   text-transform: uppercase;
-  color: #7f8aa3;
-  margin-bottom: 16px;
+  color: #eaeaea;
+  margin-bottom: 20px;
+  position: relative;
+  display: inline-block;
+}
+
+/* underline lines */
+.section-title::before,
+.section-title::after {
+  content: "";
+  display: block;
+  height: 1px;
+  background: #1f2937;
+  margin-top: 8px;
+}
+
+.section-title::after {
+  width: 60%;
+  background: #3b82f6; /* subtle accent line */
 }
 
 /* GRID */
@@ -128,6 +162,7 @@ body {
 .card:hover {
   transform: translateY(-6px);
   border-color: #3b82f6;
+  box-shadow: 0 8px 30px rgba(59, 130, 246, 0.15);
 }
 
 .card img,
@@ -271,5 +306,12 @@ body {
     </div>
 
   </div>
+  <!-- FOOTER -->
+<div class="footer">
+  <div class="footer-inner">
+    <div>2026 Devraj Singh</div>
+    <div>DS</div>
+  </div>
+</div>
 
 </div>
