@@ -196,10 +196,10 @@ title: Abyssal Shade - Dev Singh
   </div>
 
   <div class="hero">
-    <div class="kicker">Unity · Level Designer · 3rd Person Adventure</div>
+    <div class="kicker">Main Level · Unity · Level Designer</div>
     <h1>Abyssal Shade</h1>
     <p>
-      A relaxing underwater exploration experience focused on player freedom, verticality,
+      A relaxing underwater exploration experience focused on player freedom
       and distinct environmental spaces that support omni-directional movement.
     </p>
   </div>
