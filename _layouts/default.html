@@ -85,10 +85,20 @@
       color: #ffffff;
     }
 
-   .nav {
-  display: flex;
-  align-items: center;
-  gap: 16px;
+   .nav a,
+.nav a:visited,
+.nav a:active {
+  margin-left: 16px;
+  font-size: 13px;
+  color: #eaeaea;
+  text-decoration: none;
+  opacity: 0.8;
+  transition: 0.2s ease;
+}
+
+.nav a:hover {
+  opacity: 1;
+  color: #ffffff;
 }
 
 .nav-dropdown {
