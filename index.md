@@ -109,7 +109,7 @@ body {
 }
 
 .hero p {
-  font-size: 15px;
+  font-size: 20px;
   color: #a1a8b5;
 }
 
