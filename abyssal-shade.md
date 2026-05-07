@@ -216,29 +216,12 @@ title: Abyssal Shade - Dev Singh
 
   <!-- OVERVIEW -->
   <div class="section">
-    <h2>Project Overview</h2>
+    <h2>Level Overview</h2>
     <p>
       Abyssal Shade was designed around giving players a single open underwater environment to explore.
       As level designer, my priority was to create a map that felt open and free while still giving the player
       recognizable landmarks, readable spaces, and clear areas of interest.
     </p>
-
-    <div class="callout-grid">
-      <div class="callout">
-        <h4>Role</h4>
-        <p>Level Designer</p>
-      </div>
-
-      <div class="callout">
-        <h4>Engine</h4>
-        <p>Unity</p>
-      </div>
-
-      <div class="callout">
-        <h4>Focus</h4>
-        <p>Open Layout, Verticality, Environmental Readability</p>
-      </div>
-    </div>
   </div>
 
   <!-- LEVEL GOALS -->
@@ -273,7 +256,7 @@ title: Abyssal Shade - Dev Singh
     <h2>Design Breakdown</h2>
 
     <div class="beat">
-      <div class="beat-number">Beat 01</div>
+      <div class="beat-number">Introduction To Game</div>
       <h3>Tutorial Cave</h3>
       <p>
         <strong>Design Intent:</strong> Introduce the player to movement and atmosphere in a controlled space
@@ -288,7 +271,7 @@ title: Abyssal Shade - Dev Singh
     </div>
 
     <div class="beat">
-      <div class="beat-number">Beat 02</div>
+      <div class="beat-number">Main-Gameplay Begings</div>
       <h3>Open World Reveal</h3>
       <p>
         <strong>Design Intent:</strong> Transition the player from a guided tutorial space into a larger environment
@@ -303,7 +286,7 @@ title: Abyssal Shade - Dev Singh
     </div>
 
     <div class="beat">
-      <div class="beat-number">Beat 03</div>
+      <div class="beat-number">Enviornmental Variety</div>
       <h3>Distinct Level Areas</h3>
       <p>
         <strong>Design Intent:</strong> Create multiple recognizable sections that support exploration without
@@ -318,14 +301,14 @@ title: Abyssal Shade - Dev Singh
     </div>
 
     <div class="beat">
-      <div class="beat-number">Beat 04</div>
+      <div class="beat-number">Design Considerations</div>
       <h3>Kitbashing & Set Dressing</h3>
       <p>
         <strong>Design Intent:</strong> Build believable underwater spaces using available assets while maintaining
         strong composition and readability.
       </p>
       <ul>
-        <li>Set dressed 3/4 of the level using kitbashed artist assets.</li>
+        <li>Set dressed level using kitbashed artist assets.</li>
         <li>Hand-placed rock assets to blend forms and create natural silhouettes.</li>
         <li>Rotated and layered assets to avoid repetition and support visual flow.</li>
       </ul>
@@ -362,14 +345,8 @@ title: Abyssal Shade - Dev Singh
       <li>Prioritized verticality and freedom of movement.</li>
       <li>Balanced open exploration with recognizable landmarks and area identity.</li>
     </ul>
-
-    <a
-      href="{{ '/abyssal-design-doc.pdf' | relative_url }}"
-      target="_blank"
-      rel="noopener noreferrer"
-      class="doc-button">
-      Open Full Design Document →
-    </a>
+    
+   
   </div>
 
   <!-- LEARNINGS -->
