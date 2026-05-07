@@ -26,7 +26,7 @@ html { scroll-behavior: smooth; }
 body {
   background: #0b0f17;
   color: #eaeaea;
-  font-family: "Inter", sans-serif;
+  font-family: "Rajdhani", sans-serif;
 }
 
 /* CONTAINER */
@@ -170,7 +170,7 @@ body {
 .card img,
 .card iframe {
   width: 100%;
-  height: 360px;
+  height: 300px;
   display: block;
   object-fit: cover;
 }
@@ -178,7 +178,7 @@ body {
 /* VIDEO HOVER */
 .video-wrapper {
   position: relative;
-  height: 360px;
+  height: 300px;
 }
 
 .thumbnail {
@@ -206,10 +206,11 @@ body {
 }
 
 .card-body h3 {
-  font-size: 42px;
+  font-size: 34px;
   margin: 0 0 18px;
   font-weight: 800;
-  letter-spacing: -1px;
+  letter-spacing: 0px;
+  text-transform: uppercase;
   line-height: 1;
 }
 
