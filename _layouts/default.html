@@ -1,15 +1,14 @@
 <!DOCTYPE html>
 <html lang="en">
 
-<link rel="preconnect" href="https://fonts.googleapis.com">
-<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-
-<link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&display=swap" rel="stylesheet">
-  
 <head>
   <meta charset="UTF-8">
   <title>{{ page.title }}</title>
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&display=swap" rel="stylesheet">
 
   <style>
     body {
@@ -17,6 +16,19 @@
       background: #0b0f17;
       color: #eaeaea;
       font-family: "Inter", sans-serif;
+      animation: fadeIn 0.25s ease;
+    }
+
+    @keyframes fadeIn {
+      from {
+        opacity: 0;
+        transform: translateY(4px);
+      }
+
+      to {
+        opacity: 1;
+        transform: translateY(0);
+      }
     }
 
     /* ===== TOPBAR ===== */
@@ -30,22 +42,6 @@
       z-index: 999;
     }
 
-    body {
-  animation: fadeIn 0.25s ease;
-}
-
-@keyframes fadeIn {
-  from {
-    opacity: 0;
-    transform: translateY(4px);
-  }
-
-  to {
-    opacity: 1;
-    transform: translateY(0);
-  }
-}
-
     .topbar-inner {
       display: flex;
       justify-content: space-between;
@@ -55,17 +51,21 @@
       padding: 14px 24px;
     }
 
-    .brand {
+    .brand,
+    .brand:visited,
+    .brand:active {
       display: flex;
       align-items: center;
       gap: 10px;
       text-decoration: none;
-      color: inherit;
+      color: #eaeaea;
+      font-weight: 600;
     }
 
     .brand img {
       width: 32px;
       height: 32px;
+      object-fit: contain;
     }
 
     .topbar-right {
@@ -74,126 +74,112 @@
       gap: 30px;
     }
 
-    .contact a {
-      margin: 0 6px;
+    .contact {
+      display: flex;
+      align-items: center;
+      gap: 14px;
+    }
+
+    .contact a,
+    .contact a:visited,
+    .contact a:active {
       font-size: 13px;
       color: #9aa4b2;
       text-decoration: none;
+      transition: 0.2s ease;
     }
 
     .contact a:hover {
       color: #ffffff;
     }
 
-   .nav a,
-.nav a:visited,
-.nav a:active {
-  position: relative;
-  margin-left: 16px;
-  font-size: 13px;
-  color: #d1d5db;
-  text-decoration: none;
-  opacity: 0.85;
-  transition: 0.2s ease;
-}
+    .nav {
+      display: flex;
+      align-items: center;
+      gap: 18px;
+    }
 
-/* subtle underline animation */
-.nav a::after {
-  content: "";
-  position: absolute;
-  left: 0;
-  bottom: -4px;
-  width: 0%;
-  height: 1px;
-  background: #3b82f6;
-  transition: width 0.25s ease;
-}
+    .nav a,
+    .nav a:visited,
+    .nav a:active {
+      position: relative;
+      font-size: 13px;
+      color: #d1d5db;
+      text-decoration: none;
+      opacity: 0.85;
+      transition: 0.2s ease;
+    }
 
-.nav a:hover::after {
-  width: 100%;
-}
+    .nav a::after {
+      content: "";
+      position: absolute;
+      left: 0;
+      bottom: -4px;
+      width: 0%;
+      height: 1px;
+      background: #3b82f6;
+      transition: width 0.25s ease;
+    }
 
-.nav a:hover {
-  color: white;
-}
+    .nav a:hover {
+      color: #ffffff;
+      opacity: 1;
+    }
 
-.nav-dropdown {
-  position: relative;
-}
+    .nav a:hover::after {
+      width: 100%;
+    }
 
-.dropdown-menu {
-  position: absolute;
-  top: 24px;
-  right: 0;
-  min-width: 180px;
-  background: #111827;
-  border: 1px solid #1f2937;
-  border-radius: 8px;
-  padding: 8px;
-  display: none;
-  z-index: 1000;
-}
+    @media (max-width: 768px) {
+      .topbar-inner {
+        flex-direction: column;
+        gap: 12px;
+      }
 
-.dropdown-menu a {
-  display: block;
-  margin: 0;
-  padding: 8px 10px;
-  color: #9aa4b2;
-  white-space: nowrap;
-}
+      .topbar-right {
+        flex-direction: column;
+        gap: 10px;
+      }
 
-.dropdown-menu a:hover {
-  color: #ffffff;
-  background: #1f2937;
-  border-radius: 6px;
-}
-
-.nav-dropdown:hover .dropdown-menu {
-  display: block;
-}
+      .contact,
+      .nav {
+        flex-wrap: wrap;
+        justify-content: center;
+      }
+    }
   </style>
 </head>
 
 <body>
 
-<!-- GLOBAL HEADER -->
-<div class="topbar">
-  <div class="topbar-inner">
+  <!-- GLOBAL HEADER -->
+  <div class="topbar">
+    <div class="topbar-inner">
 
-    <a href="{{ '/index.html' | relative_url }}" class="brand">
-      <img src="{{ '/dev-logo.jpg' | relative_url }}" alt="Dev With Dev Logo">
-      <span>Dev With Dev</span>
-    </a>
+      <a href="{{ '/index.html' | relative_url }}" class="brand">
+        <img src="{{ '/dev-logo.jpg' | relative_url }}" alt="Dev With Dev Logo">
+        <span>Dev With Dev</span>
+      </a>
 
-    <div class="topbar-right">
+      <div class="topbar-right">
 
-      <div class="contact">
-        <a href="mailto:devrajssingh@yahoo.com">Email</a>
-        <a href="https://www.linkedin.com/in/devraj-singh-b62971261" target="_blank" rel="noopener noreferrer">LinkedIn</a>
-        <a href="https://devidog34.itch.io/" target="_blank" rel="noopener noreferrer">Itch.io</a>
+        <div class="contact">
+          <a href="mailto:devrajssingh@yahoo.com">Email</a>
+          <a href="https://www.linkedin.com/in/devraj-singh-b62971261" target="_blank" rel="noopener noreferrer">LinkedIn</a>
+          <a href="https://devidog34.itch.io/" target="_blank" rel="noopener noreferrer">Itch.io</a>
+        </div>
+
+        <div class="nav">
+          <a href="{{ '/level-design.html' | relative_url }}">Level Design</a>
+          <a href="{{ '/cinematic-design.html' | relative_url }}">Cinematic Design</a>
+          <a href="{{ '/about.html' | relative_url }}">About</a>
+        </div>
+
       </div>
 
-    <div class="nav">
-  <div class="nav-dropdown">
-    <a href="{{ '/level-design.html' | relative_url }}">Level Design</a>
-
     </div>
   </div>
 
-  <div class="nav-dropdown">
-    <a href="{{ '/cinematic-design.html' | relative_url }}">Cinematic Design</a>
-
-    </div>
-  </div>
-
-  <a href="{{ '/about.html' | relative_url }}">About</a>
-</div>
-    </div>
-
-  </div>
-</div>
-
-  <!-- PAGE CONTENT -->
   {{ content }}
 
 </body>
