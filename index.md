@@ -26,7 +26,7 @@ html { scroll-behavior: smooth; }
 body {
   background: #0b0f17;
   color: #eaeaea;
-  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif;
+  font-family: "Inter", sans-serif;
 }
 
 /* CONTAINER */
@@ -119,23 +119,25 @@ body {
 }
 
 .section-title {
+  display: flex;
+  align-items: center;
+  gap: 18px;
+
   font-size: 22px;
-  letter-spacing: 3px;
+  letter-spacing: 4px;
   text-transform: uppercase;
   color: #eaeaea;
-  margin-bottom: 20px;
-  position: relative;
-  display: inline-block;
+
+  margin-bottom: 28px;
 }
 
-/* underline lines */
-.section-title::before,
-.section-title::after {
+/* long line */
+.section-title::before {
   content: "";
-  display: block;
+  width: 120px;
   height: 1px;
-  background: #1f2937;
-  margin-top: 8px;
+  background: #3b82f6;
+  opacity: 0.7;
 }
 
 .section-title::after {
