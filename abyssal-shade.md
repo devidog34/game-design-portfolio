@@ -207,10 +207,11 @@ title: Abyssal Shade - Dev Singh
   <!-- MAIN VIDEO -->
   <div class="section">
     <h2>Gameplay Showcase</h2>
-    <iframe class="video"
-      src="https://www.youtube-nocookie.com/embed/-GJStUShhT0?start=53&autoplay=0&controls=1"
-      allowfullscreen>
-    </iframe>
+<iframe class="video"
+  src="https://www.youtube-nocookie.com/embed/-GJStUShhT0?start=53&autoplay=1&mute=1&controls=0&loop=1&playlist=-GJStUShhT0&playsinline=1"
+  allow="autoplay; encrypted-media"
+  allowfullscreen>
+</iframe>
   </div>
 
   <!-- OVERVIEW -->
