@@ -185,28 +185,12 @@ title: S.O.R.N - Dev Singh
   <div class="section">
     <h2>Level Overview</h2>
     <p>
-      S.O.R.N is a sci-fi level design project built around guiding the player through
+      S.O.R.N is the second level built around guiding the player through
       a high-tension environment while escalating combat encounters and narrative reveals.
       The goal was to create a space that felt purposeful, readable, and cinematic while
       still supporting strong moment-to-moment gameplay.
     </p>
 
-    <div class="callout-grid">
-      <div class="callout">
-        <h4>Role</h4>
-        <p>Level Designer</p>
-      </div>
-
-      <div class="callout">
-        <h4>Engine</h4>
-        <p>Unreal Engine 5</p>
-      </div>
-
-      <div class="callout">
-        <h4>Focus</h4>
-        <p>Player Flow, Encounters, Cinematic Pacing</p>
-      </div>
-    </div>
   </div>
 
   <!-- LEVEL GOALS -->
@@ -214,9 +198,9 @@ title: S.O.R.N - Dev Singh
     <h2>Level Goals</h2>
     <ul>
       <li>Guide the player naturally through the environment using lighting, layout, landmarks, and readable paths.</li>
-      <li>Create combat spaces that support movement, cover usage, and clear enemy pressure.</li>
+      <li>Create combat spaces that support intentional movement, cover usage, and clear enemy pressure.</li>
       <li>Use environmental storytelling to make the space feel grounded in the world of S.O.R.N.</li>
-      <li>Build pacing through alternating exploration, tension, encounters, and payoff moments.</li>
+      <li>Build pacing through alternating exploration, tension, and enemy encounters.</li>
     </ul>
   </div>
 
@@ -224,13 +208,12 @@ title: S.O.R.N - Dev Singh
   <div class="section">
     <h2>Level Maps</h2>
     <p>
-      Replace these with top-down maps, blockouts, or annotated screenshots showing
-      player flow, encounter zones, and key points of interest.
+      Mapping out the levels in a grid-to-unreal scale allowed me quick flexibilty in engine to make changes, while keeping documentaion and other designers up to date with real-time map changes.
     </p>
 
     <div class="image-grid">
-      <img src="./sorn-map-01.png" class="image">
-      <img src="./sorn-map-02.png" class="image">
+      <img src="./1st-floor-Lab-final-with-critical-path.png" class="image">
+      <img src="./2nd-floor-lab.png" class="image">
     </div>
   </div>
 
