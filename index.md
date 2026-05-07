@@ -208,6 +208,7 @@ body {
 .card-body h3 {
   font-size: 42px;
   margin: 0 0 18px;
+  font-weight: 800;
   letter-spacing: -1px;
   line-height: 1;
 }
