@@ -44,7 +44,7 @@ title: S.O.R.N - Dev Singh
 
 .hero p {
   color: #c7ccd6;
-  font-size: 21px;
+  font-size: 17px;
   line-height: 1.7;
   max-width: 780px;
 }
@@ -164,11 +164,11 @@ title: S.O.R.N - Dev Singh
   </div>
 
   <div class="hero">
-    <div class="kicker">Unreal Engine 5 · Level Design · Gameplay Systems</div>
-    <h1>S.O.R.N</h1>
+    <div class="kicker">Level 2 · Unreal Engine 5 · Level Designer</div>
+    <h1>S.O.R.N - The Lab</h1>
     <p>
-      A sci-fi action level focused on encounter pacing, player routing, combat pressure,
-      and cinematic environmental storytelling.
+      A level focused on encounter pacing, player routing, combat pressure,
+      and testing the player in a tighter enviornment than in the first level of S.O.R.N.
     </p>
   </div>
 
