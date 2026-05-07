@@ -88,17 +88,33 @@
    .nav a,
 .nav a:visited,
 .nav a:active {
+  position: relative;
   margin-left: 16px;
   font-size: 13px;
-  color: #eaeaea;
+  color: #d1d5db;
   text-decoration: none;
-  opacity: 0.8;
+  opacity: 0.85;
   transition: 0.2s ease;
 }
 
+/* subtle underline animation */
+.nav a::after {
+  content: "";
+  position: absolute;
+  left: 0;
+  bottom: -4px;
+  width: 0%;
+  height: 1px;
+  background: #3b82f6;
+  transition: width 0.25s ease;
+}
+
+.nav a:hover::after {
+  width: 100%;
+}
+
 .nav a:hover {
-  opacity: 1;
-  color: #ffffff;
+  color: white;
 }
 
 .nav-dropdown {
