@@ -4,6 +4,38 @@ title: S.O.R.N - Dev Singh
 ---
 
 <style>
+
+  .pdf-viewer-box {
+  margin-top: 24px;
+}
+
+.pdf-viewer {
+  width: 100%;
+  height: 650px;
+  border: 1px solid #1f2937;
+  border-radius: 10px;
+  background: #111827;
+}
+
+.doc-button {
+  display: inline-block;
+  margin-top: 18px;
+  padding: 14px 20px;
+  background: #111827;
+  border: 1px solid #1f2937;
+  border-radius: 8px;
+  color: #eaeaea;
+  text-decoration: none;
+  font-weight: 600;
+  letter-spacing: 1px;
+  transition: 0.2s ease;
+}
+
+.doc-button:hover {
+  border-color: #3b82f6;
+  transform: translateY(-2px);
+  color: #ffffff;
+}
 .container {
   max-width: 1100px;
   margin: 0 auto;
@@ -309,7 +341,20 @@ title: S.O.R.N - Dev Singh
       <li>Used documentation to keep design decisions aligned throughout production.</li>
     </ul>
 
-    <img src="./sorn-design-doc.png" class="image">
+    <div class="pdf-viewer-box">
+  <iframe
+    class="pdf-viewer"
+    src="{{ '/sorn-design-doc.pdf' | relative_url }}">
+  </iframe>
+
+  <a 
+    href="{{ '/sorn-design-doc.pdf' | relative_url }}" 
+    target="_blank" 
+    rel="noopener noreferrer"
+    class="doc-button">
+    Open Full Design Document →
+  </a>
+</div>
   </div>
 
   <!-- LEARNINGS -->
