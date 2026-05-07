@@ -381,6 +381,6 @@ title: S.O.R.N - Dev Singh
     </ul>
   </div>
 
-  <a class="back" href="./index.html">← Back to Portfolio</a>
+  <a class="back" href="./index.html">← Back to Projects Page</a>
 
 </div>
