@@ -244,8 +244,8 @@ title: S.O.R.N - Dev Singh
     </p>
 
     <div class="image-grid">
-      <img src="./1st-floor-Lab-final-with-critical-path.png" class="image">
-      <img src="./2nd-floor-lab.png" class="image">
+      <img src="./1st floor Lab final with critical path.png" class="image">
+      <img src="./2nd floor lab.png" class="image">
     </div>
   </div>
 
