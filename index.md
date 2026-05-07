@@ -222,7 +222,7 @@ body {
   margin-top: 28px;
   color: #60a5fa;
   text-decoration: none;
-  font-size: 15px;
+  font-size: 12px;
   letter-spacing: 4px;
   text-transform: uppercase;
   font-weight: 700;
@@ -260,7 +260,7 @@ body {
   <!-- HERO (COMPACT) -->
   <div class="hero">
     <h1>Devraj "Dev" Singh</h1>
-    <p>Game Designer focused on gameplay systems, player feel, and immersive interaction.</p>
+    <p>With a B.S. in Game Design, I am passionate about designing immersive gameplay experiences through level design, cinematic sequencing, gameplay systems, and player-focused interaction.</p>
   </div>
 
   <!-- PROJECTS -->
@@ -284,9 +284,9 @@ body {
   </div>
 
   <div class="card-body">
-    <h3>S.O.R.N</h3>
-    <p>Experimental gameplay systems and combat interactions.</p>
-    <a class="link" href="./sorn.html">View Game →</a>
+    <h3>S.O.R.N - The Lab</h3>
+    <p>Level 2 - The mission is to uncover the truth about the superweapon, investigate and fight through a lab facility with new enemies and boss encounters.</p>
+    <a class="link" href="./sorn.html"> Explore the Level →</a>
   </div>
 </div>
 
@@ -302,7 +302,7 @@ body {
         <div class="card-body">
           <h3>Abyssal Shade</h3>
           <p>Underwater gameplay system with environmental interaction.</p>
-          <a class="link" href="./abyssal-shade.html">View Game →</a>
+          <a class="link" href="./abyssal-shade.html">Enter the Experience →</a>
         </div>
       </div>
 
