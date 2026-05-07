@@ -223,14 +223,14 @@ title: S.O.R.N - Dev Singh
 
     <div class="beat">
       <div class="beat-number">Beat 01</div>
-      <h3>Opening Approach</h3>
+      <h3>Power On The Lights</h3>
       <p>
         <strong>Design Intent:</strong> Establish the mood of the level and introduce
         the player to the environment before combat escalates.
       </p>
       <ul>
         <li>Use lighting and composition to pull the player toward the critical path.</li>
-        <li>Keep early enemy pressure controlled so the player can understand the space.</li>
+        <li>Keep early enemy pressure controlled so the player can understand the space and narrative.</li>
         <li>Introduce visual landmarks that help the player build a mental map.</li>
       </ul>
       <img src="./sorn-beat-01.png" class="image">
@@ -238,13 +238,12 @@ title: S.O.R.N - Dev Singh
 
     <div class="beat">
       <div class="beat-number">Beat 02</div>
-      <h3>First Combat Space</h3>
+      <h3>Bio-Bot Rooms</h3>
       <p>
-        <strong>Design Intent:</strong> Create a readable encounter that teaches the
-        player how movement, cover, and enemy placement affect combat decisions.
+        <strong>Design Intent:</strong> Create a readable encounter that introduces players to a new enemy combatant - the Bio-Bot. Players are in a controlled and narratively set-dressed enviornment where they can study and learn how these enemies work.
       </p>
       <ul>
-        <li>Place cover to break sightlines and support repositioning.</li>
+        <li>Player pathing has a drop-down to encourage combat instead of retreat.</li>
         <li>Use enemy placement to encourage movement instead of passive play.</li>
         <li>Keep exits visible so the player always understands where progression continues.</li>
       </ul>
@@ -253,10 +252,10 @@ title: S.O.R.N - Dev Singh
 
     <div class="beat">
       <div class="beat-number">Beat 03</div>
-      <h3>Main Encounter</h3>
+      <h3>The Atrium</h3>
       <p>
         <strong>Design Intent:</strong> Deliver the level’s most intense combat space
-        with stronger enemy pressure, verticality, or layered objectives.
+        with stronger enemy pressure, verticality, and layered objectives.
       </p>
       <ul>
         <li>Use larger space to allow multiple combat approaches.</li>
@@ -268,7 +267,7 @@ title: S.O.R.N - Dev Singh
 
     <div class="beat">
       <div class="beat-number">Beat 04</div>
-      <h3>Final Payoff</h3>
+      <h3>Boss Fight - Q14 Encounter</h3>
       <p>
         <strong>Design Intent:</strong> End the level with a memorable moment that
         connects gameplay, environment, and story.
@@ -310,7 +309,7 @@ title: S.O.R.N - Dev Singh
       <li>Used documentation to keep design decisions aligned throughout production.</li>
     </ul>
 
-    <a class="back" href="./sorn-ldd.pdf" target="_blank">View Level Design Document →</a>
+    <img src="./sorn-design-doc.png" class="image">
   </div>
 
   <!-- LEARNINGS -->
