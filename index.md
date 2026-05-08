@@ -329,7 +329,7 @@ body {
         <div class="card-body">
           <h3>David’s Mighty Men</h3>
           <p>Carried out to vertical slice, a project focused on combat and level design.</p>
-          <a class="link" href="#">View Game →</a>
+          <a class="link" href="./davids-mighty-men.html">View Game →</a>
         </div>
       </div>
 
@@ -339,7 +339,7 @@ body {
         <div class="card-body">
           <h3>The Lone Town</h3>
           <p>Cinematic Project focused on recreating the classic spaghetti western through level design and camera work.</p>
-          <a class="link" href="#">Enter the Saloon →</a>
+          <a class="link" href="./the-lone-town.html">Enter the Saloon →</a>
         </div>
       </div>
 
