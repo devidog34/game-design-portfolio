@@ -311,16 +311,6 @@ body {
         </div>
       </div>
 
-     <!-- The Lone Town -->
-      <div class="card">
-        <img src="./lone-town.gif">
-        <div class="card-body">
-          <h3>The Lone Town</h3>
-          <p>Atmospheric environment focused on exploration and mood.</p>
-          <a class="link" href="#">View Game →</a>
-        </div>
-      </div>
-
       <!-- Ripple Rescue -->
       <div class="card">
         <img src="./ripple.gif">
@@ -330,6 +320,8 @@ body {
           <a class="link" href="#">View Game →</a>
         </div>
       </div>
+  
+  <div class="section-title">Additional Projects</div>
 
       <!-- David’s Mighty Men -->
       <div class="card">
@@ -341,13 +333,23 @@ body {
         </div>
       </div>
 
+       <!-- The Lone Town -->
+      <div class="card">
+        <img src="./lone-town.gif">
+        <div class="card-body">
+          <h3>The Lone Town</h3>
+          <p>Atmospheric environment focused on exploration and mood.</p>
+          <a class="link" href="#">View Game →</a>
+        </div>
+      </div>
+
     </div>
 
   </div>
   <!-- FOOTER -->
 <div class="footer">
   <div class="footer-inner">
-    <div>2026 Devraj Singh</div>
+    <div>© 2026 Devraj Singh</div>
     <div>DS</div>
   </div>
 </div>
