@@ -312,6 +312,20 @@ body {
       </div>
 
       <!-- Ripple Rescue -->
+      <div class="card video-card">
+  <div class="video-wrapper">
+
+    <!-- THUMBNAIL -->
+    <img src="./ripple-thumb.png" class="thumbnail">
+
+    <!-- VIDEO -->
+    <iframe class="video"
+      src="https://www.youtube-nocookie.com/embed/3IE65A9LxUg?autoplay=1&mute=1&controls=0&playsinline=1&loop=1&playlist=3IE65A9LxUg"
+      allow="autoplay; encrypted-media"
+      allowfullscreen>
+    </iframe>
+
+  </div>
       <div class="card">
         <img src="./ripple.gif">
         <div class="card-body">
@@ -324,6 +338,16 @@ body {
   <div class="section-title">Additional Projects</div>
 
       <!-- David’s Mighty Men -->
+      <div class="card video-card">
+        <div class="video-wrapper">
+
+    <!-- THUMBNAIL (shows first) -->
+    <img src="./ddm-thumb.png" class="thumbnail">
+
+    <!-- VIDEO (appears on hover) -->
+    <iframe class="video"
+      src="#">
+    </iframe>
       <div class="card">
         <img src="./david.gif">
         <div class="card-body">
@@ -334,6 +358,20 @@ body {
       </div>
 
        <!-- The Lone Town -->
+<div class="card video-card">
+  <div class="video-wrapper">
+
+    <!-- THUMBNAIL -->
+    <img src="./lone-town-thumb.png" class="thumbnail">
+
+    <!-- VIDEO -->
+    <iframe class="video"
+      src="https://www.youtube-nocookie.com/embed/iduBzDuSyOM?autoplay=1&mute=1&controls=0&playsinline=1&loop=1&playlist=iduBzDuSyOM"
+      allow="autoplay; encrypted-media"
+      allowfullscreen>
+    </iframe>
+
+  </div>
       <div class="card">
         <img src="./lone-town.gif">
         <div class="card-body">
