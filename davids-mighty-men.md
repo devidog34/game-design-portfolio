@@ -196,7 +196,7 @@ title: David's Mighty Men - Dev Singh
   </div>
 
   <div class="hero">
-    <div class="kicker">Unreal Engine 5.6 · Hack N' Slash · Lead Designer</div>
+    <div class="kicker">Unreal Engine 5.6 · Hack N' Slash · Lead Designer · Lead Programmer · Motion Capture </div>
     <h1>David's Mighty Men</h1>
     <p>
       A third-person hack-and-slash project focused on city level design, cinematic gameplay,
@@ -219,7 +219,7 @@ title: David's Mighty Men - Dev Singh
     <p>
       David's Mighty Men is a third-person hack-and-slash project developed in Unreal Engine 5.6.
       As a developer on the project from conception, I worked across level design, cinematic design,
-      gameplay implementation, and AI systems.
+      gameplay implementation, and enemy AI systems.
     </p>
 
     <p>
