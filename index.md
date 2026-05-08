@@ -316,7 +316,7 @@ body {
         <img src="./ripple.gif">
         <div class="card-body">
           <h3>Ripple Rescue</h3>
-          <p>Mechanic-driven gameplay focused on player movement.</p>
+          <p>A top-down puzzle game, levels ranging in difficulty allowed a traditional and creative approach to level design.</p>
           <a class="link" href="#">View Game →</a>
         </div>
       </div>
@@ -328,7 +328,7 @@ body {
         <img src="./david.gif">
         <div class="card-body">
           <h3>David’s Mighty Men</h3>
-          <p>Team-based gameplay and character interaction systems.</p>
+          <p>Carried out to vertical slice, a project focused on combat and level design.</p>
           <a class="link" href="#">View Game →</a>
         </div>
       </div>
@@ -338,8 +338,8 @@ body {
         <img src="./lone-town.gif">
         <div class="card-body">
           <h3>The Lone Town</h3>
-          <p>Atmospheric environment focused on exploration and mood.</p>
-          <a class="link" href="#">View Game →</a>
+          <p>Cinematic Project focused on recreating the classic spaghetti western through level design and camera work.</p>
+          <a class="link" href="#">Enter the Saloon →</a>
         </div>
       </div>
 
