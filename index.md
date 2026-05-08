@@ -317,7 +317,7 @@ body {
         <div class="card-body">
           <h3>Ripple Rescue</h3>
           <p>A top-down puzzle game, levels ranging in difficulty allowed a traditional and creative approach to level design.</p>
-          <a class="link" href="#">View Game →</a>
+          <a class="link" href="./ripple-rescue.html">View Game →</a>
         </div>
       </div>
   
