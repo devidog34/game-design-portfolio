@@ -1,6 +1,6 @@
 ---
 layout: default
-title: Devraj "Dev" Singh - Game Design Portfolio
+title: Dev Singh - Game Design Portfolio
 ---
 
 <style>
@@ -263,13 +263,13 @@ body {
 
   <!-- HERO (COMPACT) -->
   <div class="hero">
-    <h1>Devraj "Dev" Singh</h1>
+    <h1>Dev Singh</h1>
     <p>With a B.S. in Game Design, I am passionate about designing immersive gameplay experiences through level design, cinematic sequencing, gameplay systems, and player-focused interaction.</p>
   </div>
 
   <!-- PROJECTS -->
   <div class="section">
-    <div class="section-title">Projects</div>
+    <div class="section-title">Released Projects</div>
 
     <div class="grid">
 
@@ -289,7 +289,8 @@ body {
 
   <div class="card-body">
     <h3>S.O.R.N - The Lab</h3>
-    <p>Level 2 - The mission is to uncover the truth about the superweapon, investigate and fight through a lab facility with new enemies and boss encounters.</p>
+    <p>Level Design</p>
+    <p>Level 2 - The mission is to uncover the truth about the superweapon by investigating and fighting through a lab facility with new enemies and boss encounters.</p>
     <a class="link" href="./sorn.html"> Explore the Level →</a>
   </div>
 </div>
@@ -305,7 +306,7 @@ body {
         </div>
         <div class="card-body">
           <h3>Abyssal Shade</h3>
-          <p>Underwater gameplay system with environmental interaction.</p>
+          <p>Main Level - Encourage players to explore an open-world map through enviornmental variety.</p>
           <a class="link" href="./abyssal-shade.html">Enter the Experience →</a>
         </div>
       </div>
