@@ -268,122 +268,119 @@ body {
   </div>
 
   <!-- PROJECTS -->
-  <div class="section">
-    <div class="section-title">Released Projects</div>
+ <!-- PROJECTS -->
+<div class="section">
+  <div class="section-title">Released Projects</div>
 
-    <div class="grid">
+  <div class="grid">
 
-<!-- S.O.R.N -->
-<div class="card video-card">
-  <div class="video-wrapper">
+    <!-- S.O.R.N -->
+    <div class="card video-card">
+      <div class="video-wrapper">
+        <img src="./sorn-thumb.png" class="thumbnail">
 
-    <!-- THUMBNAIL (shows first) -->
-    <img src="./sorn-thumb.png" class="thumbnail">
-
-    <!-- VIDEO (appears on hover) -->
-    <iframe class="video"
-      src="https://www.youtube-nocookie.com/embed/YOUR_VIDEO_ID?autoplay=1&mute=1&controls=0&loop=1&playlist=YOUR_VIDEO_ID">
-    </iframe>
-
-  </div>
-
-  <div class="card-body">
-    <h3>S.O.R.N - The Lab</h3>
-    <p>Level Design</p>
-    <p>Level 2 - The mission is to uncover the truth about the superweapon by investigating and fighting through a lab facility with new enemies and boss encounters.</p>
-    <a class="link" href="./sorn.html"> Explore the Level →</a>
-  </div>
-</div>
-
-
-      <!-- Abyssal Shade -->
-      <div class="card video-card">
-        <div class="video-wrapper">
-          <img src="./manta-thumb.png" class="thumbnail">
-          <iframe class="video"
-            src="https://www.youtube-nocookie.com/embed/-GJStUShhT0?start=53&autoplay=1&mute=1&controls=0&loop=1&playlist=-GJStUShhT0">
-          </iframe>
-        </div>
-        <div class="card-body">
-          <h3>Abyssal Shade</h3>
-          <p>Main Level - Encourage players to explore an open-world map through enviornmental variety.</p>
-          <a class="link" href="./abyssal-shade.html">Enter the Experience →</a>
-        </div>
+        <iframe class="video"
+          src="https://www.youtube-nocookie.com/embed/YOUR_VIDEO_ID?autoplay=1&mute=1&controls=0&playsinline=1&loop=1&playlist=YOUR_VIDEO_ID"
+          allow="autoplay; encrypted-media"
+          allowfullscreen>
+        </iframe>
       </div>
 
-      <!-- Ripple Rescue -->
-      <div class="card video-card">
-  <div class="video-wrapper">
-
-    <!-- THUMBNAIL -->
-    <img src="./ripple-thumb.png" class="thumbnail">
-
-    <!-- VIDEO -->
-    <iframe class="video"
-      src="https://www.youtube-nocookie.com/embed/3IE65A9LxUg?autoplay=1&mute=1&controls=0&playsinline=1&loop=1&playlist=3IE65A9LxUg"
-      allow="autoplay; encrypted-media"
-      allowfullscreen>
-    </iframe>
-
-  </div>
-      <div class="card">
-        <img src="./ripple.gif">
-        <div class="card-body">
-          <h3>Ripple Rescue</h3>
-          <p>A top-down puzzle game, levels ranging in difficulty allowed a traditional and creative approach to level design.</p>
-          <a class="link" href="./ripple-rescue.html">View Game →</a>
-        </div>
+      <div class="card-body">
+        <h3>S.O.R.N - The Lab</h3>
+        <p>Level Design</p>
+        <p>Level 2 - The mission is to uncover the truth about the superweapon by investigating and fighting through a lab facility with new enemies and boss encounters.</p>
+        <a class="link" href="./sorn.html">Explore the Level →</a>
       </div>
-  
-  <div class="section-title">Additional Projects</div>
+    </div>
 
-      <!-- David’s Mighty Men -->
-      <div class="card video-card">
-        <div class="video-wrapper">
+    <!-- Abyssal Shade -->
+    <div class="card video-card">
+      <div class="video-wrapper">
+        <img src="./manta-thumb.png" class="thumbnail">
 
-    <!-- THUMBNAIL (shows first) -->
-    <img src="./ddm-thumb.png" class="thumbnail">
-
-    <!-- VIDEO (appears on hover) -->
-    <iframe class="video"
-      src="#">
-    </iframe>
-      <div class="card">
-        <img src="./david.gif">
-        <div class="card-body">
-          <h3>David’s Mighty Men</h3>
-          <p>Carried out to vertical slice, a project focused on combat and level design.</p>
-          <a class="link" href="./davids-mighty-men.html">View Game →</a>
-        </div>
+        <iframe class="video"
+          src="https://www.youtube-nocookie.com/embed/-GJStUShhT0?start=53&autoplay=1&mute=1&controls=0&playsinline=1&loop=1&playlist=-GJStUShhT0"
+          allow="autoplay; encrypted-media"
+          allowfullscreen>
+        </iframe>
       </div>
 
-       <!-- The Lone Town -->
-<div class="card video-card">
-  <div class="video-wrapper">
+      <div class="card-body">
+        <h3>Abyssal Shade</h3>
+        <p>Main Level - Encourage players to explore an open-world map through environmental variety.</p>
+        <a class="link" href="./abyssal-shade.html">Enter the Experience →</a>
+      </div>
+    </div>
 
-    <!-- THUMBNAIL -->
-    <img src="./lone-town-thumb.png" class="thumbnail">
+    <!-- Ripple Rescue -->
+    <div class="card video-card">
+      <div class="video-wrapper">
+        <img src="./ripple-thumb.png" class="thumbnail">
 
-    <!-- VIDEO -->
-    <iframe class="video"
-      src="https://www.youtube-nocookie.com/embed/iduBzDuSyOM?autoplay=1&mute=1&controls=0&playsinline=1&loop=1&playlist=iduBzDuSyOM"
-      allow="autoplay; encrypted-media"
-      allowfullscreen>
-    </iframe>
-
-  </div>
-      <div class="card">
-        <img src="./lone-town.gif">
-        <div class="card-body">
-          <h3>The Lone Town</h3>
-          <p>Cinematic Project focused on recreating the classic spaghetti western through level design and camera work.</p>
-          <a class="link" href="./the-lone-town.html">Enter the Saloon →</a>
-        </div>
+        <iframe class="video"
+          src="https://www.youtube-nocookie.com/embed/3IE65A9LxUg?autoplay=1&mute=1&controls=0&playsinline=1&loop=1&playlist=3IE65A9LxUg"
+          allow="autoplay; encrypted-media"
+          allowfullscreen>
+        </iframe>
       </div>
 
+      <div class="card-body">
+        <h3>Ripple Rescue</h3>
+        <p>A top-down puzzle game with levels ranging in difficulty, allowing a traditional and creative approach to level design.</p>
+        <a class="link" href="./ripple-rescue.html">Explore the Puzzle →</a>
+      </div>
     </div>
 
   </div>
+</div>
+
+<!-- ADDITIONAL PROJECTS -->
+<div class="section" style="margin-top:90px;">
+  <div class="section-title">Additional Projects</div>
+
+  <div class="grid">
+
+    <!-- David’s Mighty Men -->
+    <div class="card video-card">
+      <div class="video-wrapper">
+        <img src="./dmm-thumb.png" class="thumbnail">
+
+        <iframe class="video"
+          src="#"
+          allow="autoplay; encrypted-media"
+          allowfullscreen>
+        </iframe>
+      </div>
+
+      <div class="card-body">
+        <h3>David’s Mighty Men</h3>
+        <p>Carried out to vertical slice, a project focused on combat, level design, cinematic sequencing, and enemy systems.</p>
+        <a class="link" href="./davids-mighty-men.html">View Breakdown →</a>
+      </div>
+    </div>
+
+    <!-- The Lone Town -->
+    <div class="card video-card">
+      <div class="video-wrapper">
+        <img src="./lone-town-thumb.png" class="thumbnail">
+
+        <iframe class="video"
+          src="https://www.youtube-nocookie.com/embed/iduBzDuSyOM?autoplay=1&mute=1&controls=0&playsinline=1&loop=1&playlist=iduBzDuSyOM"
+          allow="autoplay; encrypted-media"
+          allowfullscreen>
+        </iframe>
+      </div>
+
+      <div class="card-body">
+        <h3>The Lone Town</h3>
+        <p>Cinematic project focused on recreating the classic spaghetti western through level design and camera work.</p>
+        <a class="link" href="./the-lone-town.html">Enter the Saloon →</a>
+      </div>
+    </div>
+
+  </div>
+</div>
   <!-- FOOTER -->
 <div class="footer">
   <div class="footer-inner">
