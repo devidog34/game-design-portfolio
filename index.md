@@ -191,9 +191,11 @@ body {
 .video {
   position: absolute;
   top: 0;
+  left: 0;
   width: 100%;
   height: 100%;
   opacity: 0;
+  border: none;
   transition: opacity 0.3s ease;
 }
 
@@ -267,8 +269,7 @@ body {
     <p>With a B.S. in Game Design, I am passionate about designing immersive gameplay experiences through level design, cinematic sequencing, gameplay systems, and player-focused interaction.</p>
   </div>
 
-  <!-- PROJECTS -->
- <!-- PROJECTS -->
+<!-- PROJECTS -->
 <div class="section">
   <div class="section-title">Released Projects</div>
 
@@ -342,16 +343,8 @@ body {
   <div class="grid">
 
     <!-- David’s Mighty Men -->
-    <div class="card video-card">
-      <div class="video-wrapper">
-        <img src="./dmm-thumb.png" class="thumbnail">
-
-        <iframe class="video"
-          src="#"
-          allow="autoplay; encrypted-media"
-          allowfullscreen>
-        </iframe>
-      </div>
+    <div class="card">
+      <img src="./dmm-thumb.png">
 
       <div class="card-body">
         <h3>David’s Mighty Men</h3>
@@ -381,6 +374,15 @@ body {
 
   </div>
 </div>
+<script>
+  if ("scrollRestoration" in history) {
+    history.scrollRestoration = "manual";
+  }
+
+  window.addEventListener("load", function () {
+    window.scrollTo(0, 0);
+  });
+</script>
   <!-- FOOTER -->
 <div class="footer">
   <div class="footer-inner">
